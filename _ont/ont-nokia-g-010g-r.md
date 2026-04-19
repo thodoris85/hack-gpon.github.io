@@ -206,7 +206,7 @@ Check base image file CRC ... cal_crc (2af075a1) ori_crc (2af075a1) Success
 ## Serial
 
 The ONT has a TTL 3.3v UART console (configured as 115200 8-N-1) that can be accessed from the top surface. To accept TX line commands, the GND of the TTL adapter should be attached to the ONT’s shield like the below photo:
-{% include image.html file="g-010g-r_serial_pinouts.jpg" alt="Nokia G-010G-R Ports" caption="Nokia G-010G-R Ports" %}
+{% include image.html file="g-010g-r_serial_pinouts.jpg" alt="Nokia G-010G-R Ports (with pin headers from user)" caption="Nokia G-010G-R Ports (with pin headers from user)" %}
 
 Please note that some models come without a pre-soldered pin header.
 {% include image.html file="g-010g-r_headerless.jpg" alt="Nokia G-010G-R w/o pin header" caption="Nokia G-010G-R w/o pin header" %}
